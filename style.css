@@ -1,0 +1,97 @@
+/* FILEPATH: /C:/Users/nicod/OneDrive/Documentos/usp/trabalho-final-mac0118/style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #0000FF;
+}
+
+main {
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+main#softwares {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+header {
+    background-color: #fff;
+}
+
+header p {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+footer {
+    background-color: #010101;
+    padding: 10px 0;
+    text-align: center;
+}
