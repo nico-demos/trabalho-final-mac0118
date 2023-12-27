@@ -20,17 +20,23 @@ h1 {
 h2 {
     font-size: 20px;
     color: #333;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 h3 {
-    margin-bottom: 20px;
+    margin-bottom: 7px;
+    font-size: 18px;
+    color: #333;
 }
 
 p {
     font-size: 16px;
     color: #666;
     margin-bottom: 20px;
+}
+
+p.sem-espacamento {
+    margin-bottom: 10px;
 }
 
 ul {
@@ -82,18 +88,8 @@ main {
     padding: 0 30px;
 }
 
-.categoria1 {
-    border-bottom: 5px solid green;
-}
-.categoria2 {
-    border-bottom: 5px solid orange;
-}
-.categoria3 {
-    border-bottom: 5px solid red;
-}
-
 section {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 header {
@@ -102,6 +98,16 @@ header {
 
 header p {
     text-align: center;
+}
+
+.categoria1 {
+    border-bottom: 5px solid green;
+}
+.categoria2 {
+    border-bottom: 5px solid orange;
+}
+.categoria3 {
+    border-bottom: 5px solid red;
 }
 
 nav {
@@ -122,12 +128,31 @@ nav ul li {
     margin: 0 10px;
 }
 
-div {
+div h3 {
+    margin-bottom: 5px;
+}
+
+div.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
     margin-bottom: 30px;
 }
 
-div h3 {
-    margin-bottom: 5px;
+section.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img.icon {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
 }
 
 footer {
