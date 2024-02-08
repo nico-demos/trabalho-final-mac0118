@@ -3,22 +3,21 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Coletânea de Softwares Livres de Matemática (CSLM)</title>
+    <title> Professores de matemática em sítio web (PMSW)</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1>Coletânea de Softwares Livres de Matemática</h1>
-        <p>Bem-vindo! Encontre ferramentas úteis para o ensino de matemática e algumas propostas para utiliza-las em sala de aula</p>
+        <h1>Professores de matemática em sítio web</h1>
+        <p>Bem-vindo! Encontre sequências didáticas utilizando o IVProg e outras ferramentas úteis para o ensino de matemática</p>
 
         <nav>
             <ul>
                 <li><a href="./index.html">Visão Geral</a></li>
                 <li><a href="./introducao.html">Comece por aqui!</a></li>
-                <li><a href="./softwares.html">Coletânea de Softwares</a></li>
                 <li><a href="./sequencias.html">Sequências didáticas</a></li>
-                <li><a href="./sites-uteis.html">Sites úteis</a></li>
+                <li><a href="./softwares.html">Ferramentas úteis</a></li>
                 <li><a href="./sobre.html">Sobre</a></li>
             </ul>
         </nav>
@@ -59,37 +58,25 @@
                 </div>
             </a>
 
-
-            <a href="./softwares.html">
-                <div class="card">
-                    <div><img class="icon" src="./src/programas.png"></div>
-                    <div>
-                        <h2 id="softwares">Coletânea de Softwares Livres </h2>
-                        <p> Nessa aba você encontra alguns recursos digitais para o uso em sala de aula. Nessa mesma página, classificamos cada um de acordo com seu nível de acessibilidade. </p>
-                        <p> Considerando 3 níveis básicos de acessibildade para sala de aula: Disponibilidade no idioma português, disponibilidade do software na linguagem de programação JavaScript e Indisponibilidade total de recursos de acessibilidade</p>
-                
-                        <p> Para acessar a página de cada software, clique no botão azul escrito "Visitar".</p>
-                    </div>
-                </div>
-            </a>
-
             <a href="./sequencias.html">
                 <div class="card">
                     <div><img class="icon" src="./src/livro-didatico.png"></div>
                     <div>
-                        <h2 id="sequencias">Sequências didáticas</h2>
+                        <h2 id="sequencias">Ensine utilizando o IVProg </h2>
                         <p>As sequências didáticas são propostas de atividades que podem ser realizadas em sala de aula com o
                             auxílio de softwares livres. </p>
                     </div>
                 </div>
             </a>
 
-            <a href="./sites-uteis.html">
+            <a href="./softwares.html">
                 <div class="card">
-                    <div><img class="icon" src="./src/internet.png"></div>
+                    <div><img class="icon" src="./src/programas.png"></div>
                     <div>
-                        <h2 id="sites">Sites úteis</h2>
-                        <p>Encontre aqui uma lista de sites úteis para o professor de matemática.</p>
+                        <h2 id="softwares">Coletânea de outras ferramentas úteis para o ensino</h2>
+                        <p> Nessa aba você encontra alguns recursos digitais para o uso em sala de aula. De sites a softwares, priorizamos aqueles que apresentam mais acessibilidade de recursos ao professor</p>
+                
+                        <p> acessar a página de cada software, clique no botão azul escrito <strong>"Visitar"</strong>.</p>
                     </div>
                 </div>
             </a>
@@ -98,14 +85,28 @@
                 <div class="card">
                     <div><img class="icon" src="./src/equipe.png"></div>
                     <div>
-                        <h2 id="sobre">Sobre</h2>
-                        <p>Conheça mais sobre o projeto e as referências utilzadas por seus colaboradores.</p>
+                        <h2 id="sobre">Sobre o IVprog e IME USP</h2>
+                        <p>Conheça mais sobre o projeto e as referências utilzadas por nossos colaboradores, bem como a moticação para criação desse site e um breve resumo sobre o software que utilizamos.</p>
                     </div>
                 </div>
             </a>
 
         </section>
     </main>
+
+    <section>
+        <h2> Formulário de contato </h2>
+        <p> Adorariamos receber feedbacks para a melhoria do nosso espaço. Juntos podemos contruir um futuro melhor:</p>
+        <form action="mailto:a@a.a" method="post" enctype="text/plain">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
 
     <footer>
         <p>Desenvolvido por Nicodemos, Gabriel Fernandes e João Sans para MAC0118.</p>
