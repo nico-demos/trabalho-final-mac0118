@@ -57,7 +57,7 @@ a:visited {
     color: #0000FF;
 }
 
-img {
+img.logo {
     width: 250px;
     height: 250px;
 }
@@ -69,6 +69,8 @@ button {
     padding: 10px 40px;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 20px;
 }
 
 button:hover {
@@ -94,6 +96,10 @@ section {
 
 header {
     background-color: #fff;
+    padding: 35px 0 0 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
 }
 
 header p {
@@ -149,10 +155,57 @@ section.card {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+div.destaque {
+    border: 5px solid #0000FF;
+}
+
 img.icon {
     width: 100px;
     height: 100px;
     margin-right: 20px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form input  {
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form textarea {
+    width: 56%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form input[type="submit"] {
+    width: 25%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #0000FF;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0000FF;
+    opacity: 0.6;
 }
 
 footer {
