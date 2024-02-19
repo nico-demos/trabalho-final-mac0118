@@ -208,6 +208,16 @@ form button:hover {
     opacity: 0.6;
 }
 
+div.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - (altura do cabeçalho + altura do rodapé));
+    /* Ajuste conforme necessário */
+    position: relative;
+    z-index: 1;
+}
+
 footer {
     background-color: #010101;
     padding: 10px 0;
